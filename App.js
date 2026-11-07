@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { View, Text, Button, Image, ScrollView, Alert } from 'react-native';
+import { View, Text, Button, Image, ScrollView, Alert, StyleSheet } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
+import {FontAwesome6} from "@expo/vector-icons";
 import QuizQuestion from './components/question';
 
 const MyApp = () => {
@@ -32,6 +33,11 @@ const MyApp = () => {
 
     return (
         <ScrollView contentContainerStyle={{ padding: 20 }}>
+
+
+            <Text style={{ fontSize: 28, fontWeight: 'bold' }}>
+                Avengers Quiz <FontAwesome6 name="shield" size={32} color="red" />
+            </Text>
             <QuizQuestion
                 number={1}
                 question="Which Avenger wears this iconic red and gold armor?"

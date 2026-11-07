@@ -4,6 +4,7 @@ import { View, Text, Button, Image, ScrollView, Alert } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 
 const QuizQuestion = ({
+    title,
     number,
     question,
     picture,
@@ -18,6 +19,11 @@ const QuizQuestion = ({
 
     return (
         <View style={{ marginBottom: 20 }}>
+
+            <Text>
+                    {title}
+
+            </Text>
 
             <Text style={{ fontSize: 18, fontWeight: 'bold' }}>
                 Question {number}
