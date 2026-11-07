@@ -20,10 +20,7 @@ const QuizQuestion = ({
     return (
         <View style={{ marginBottom: 20 }}>
 
-            <Text>
-                    {title}
-
-            </Text>
+           
 
             <Text style={{ fontSize: 18, fontWeight: 'bold' }}>
                 Question {number}
