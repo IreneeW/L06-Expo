@@ -17,4 +17,4 @@ Screenshots: <br>
 
 # Demo Video
 
-Demo Video Link: <br> [Recording 2026-11-07 193603.mp4](video/Recording%202026-11-07%20193603.mp4)
+Demo Video Link: <br> [[Recording 2026-11-07 193603.mp4](video/Recording%202026-11-07%20193603.mp4)](https://screenapp.io/app/share/rYuUD7WTZ4se4ga82nVKNDxn)
